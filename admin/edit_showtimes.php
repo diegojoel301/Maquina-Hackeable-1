@@ -135,9 +135,9 @@ session_start();
               </thead>
               <tbody>
                   <?php 
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
+    $servername = "localhost"; //127.0.0.1
+    $username = "admin";
+    $password = "afM0aty6AkBB";
     $dbname = "complexdb";
 
 
