@@ -134,8 +134,8 @@
                   
  <?php 
     $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
+    $username = "admin";
+    $password = "afM0aty6AkBB";
     $dbname = "complexdb";
 
 
