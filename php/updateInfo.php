@@ -1,8 +1,8 @@
 <?php
 session_start();
 $servername = "localhost";
-$username = "root";
-$passworddb = "root";
+$username = "admin";
+$passworddb = "afM0aty6AkBB";
 $dbname = "complexdb";
 $user_id = $_SESSION["user_id"];
 $email_start = $_SESSION["email"];
