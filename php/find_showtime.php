@@ -1,8 +1,8 @@
 <?php 
     session_start();
     $servername = "127.0.0.1";
-    $username = "root";
-    $password = "root";
+    $username = "admin";
+    $password = "afM0aty6AkBB";
     $dbname = "complexdb";
     $movie_title = $_POST["movie_chosen"];
     $date = $_POST["date_chosen"];
