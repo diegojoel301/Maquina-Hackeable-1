@@ -3,7 +3,7 @@
     error_reporting(0);
     $servername = "127.0.0.1";
     $username = "root";
-    $password = "root";
+    $password = "";
     $dbname = "complexdb";
     //$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     //$link_exploded = explode("?", $actual_link);
