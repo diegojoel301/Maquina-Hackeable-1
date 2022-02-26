@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "admin";
-$passworddb = "afM0aty6AkBB";
+$username = "root";
+$passworddb = "";
 $dbname = "complexdb";
 
 $title = $_POST["title"]; 
