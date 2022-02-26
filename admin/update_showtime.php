@@ -4,8 +4,8 @@ session_start();
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $sections_of_URL = explode("?", $actual_link);
 $servername = "localhost"; // 127.0.0.1
-$username = "admin";
-$password = "afM0aty6AkBB";
+$username = "root";
+$password = "";
 $dbname = "complexdb";
 $start_time = $_POST["start_time$sections_of_URL[1]"];                      
 $complex = $_POST["complex$sections_of_URL[1]"];                      
