@@ -75,8 +75,8 @@
         <!-- Example row of columns -->
  <?php 
     $servername = "127.0.0.1";
-    $username = "admin";
-    $password = "afM0aty6AkBB";
+    $username = "root";
+    $password = "";
     $dbname = "complexdb";
     $user = $_SESSION["user_id"];
 
