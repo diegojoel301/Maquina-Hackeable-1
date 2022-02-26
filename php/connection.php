@@ -1,8 +1,8 @@
 <?php
 session_start();
 $servername = "127.0.0.1";
-$username = "admin";
-$password = "afM0aty6AkBB";
+$username = "root";
+$password = "";
 $dbname = "complexdb";
 $today = strtotime("Yesterday"); //???? Why won't it work for today
 $recemail = $_POST["email"];                      
