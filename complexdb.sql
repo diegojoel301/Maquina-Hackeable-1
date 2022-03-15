@@ -145,28 +145,28 @@ insert into Theatre (name, screen_id, max_seats, screen_size) values
 ('Cineplex Infinity',3, 250,'large');
 
 insert into User_Account (email, _password, fname, lname, street_name, street_num, postal_code, phone_number) values
-('Alice@Amail.com','12345','Alice', 'Anderson','Tupac Lane',23,'H2I4X3', '3728546378'),
-('Theodore@Tmail.com','23456','Theodore', 'Roosevelt','Error Place',45,'U73N4I', '8346920457'),
-('Joy@Jmail.com','34567','Joy', 'Ahoy', 'Chicken Dinner Road',92,'O8QB3M', '9374816284'),
-('Abner@Amail.com','45678','Abner', 'Alakazam', 'Frying Pan Road',72, 'P1N7WB', '7219035715'),
-('Michael@Mmail.com','56789','Michael','Bloomberg', 'Suncastle Bay',995,'E7V2N8', '7219472534'),
-('Alice2@Amail.com','67890','Alice', 'Applegate', 'GOA Way',2238,'Z8WT3K', '7210984632'),
-('Elizabeth@Email.com','78901','Elizabeth','Smith','English Avenue',01,'P1N5X3', '7354637182'),
-('user@demo.com','password','Chris','Maltais','English Avenue',01,'P1N5X3', '7354637182'),
-('admin@demo.com','password','Chris','Maltais','English Avenue',01,'P1N5X3', '7354637182');
+('Alice@mago.com','12345','Alice', 'Anderson','Tupac Lane',23,'H2I4X3', '3728546378'),
+('Theodore@mago.com','23456','Theodore', 'Roosevelt','Error Place',45,'U73N4I', '8346920457'),
+('Joy@mago.com','34567','Joy', 'Ahoy', 'Chicken Dinner Road',92,'O8QB3M', '9374816284'),
+('Abner@mago.com','45678','Abner', 'Alakazam', 'Frying Pan Road',72, 'P1N7WB', '7219035715'),
+('Michael@mago.com','56789','Michael','Bloomberg', 'Suncastle Bay',995,'E7V2N8', '7219472534'),
+('Alice2@mago.com','67890','Alice', 'Applegate', 'GOA Way',2238,'Z8WT3K', '7210984632'),
+('Elizabeth@mago.com','78901','Elizabeth','Smith','English Avenue',01,'P1N5X3', '7354637182'),
+('user@mago.com','password','Chris','Maltais','English Avenue',01,'P1N5X3', '7354637182'),
+('admin@mago.com','password','Chris','Maltais','English Avenue',01,'P1N5X3', '7354637182');
 
 insert into Admin (admin_id, email) values
-(1,'Alice@Amail.com'),
-(2,'Theodore@Tmail.com'),
-(3,'admin@demo.com');
+(1,'Alice@mago.com'),
+(2,'Theodore@mago.com'),
+(3,'admin@mago.com');
 
 insert into Member (member_id, email, card_number, card_expiry) values
-(1,'Joy@Jmail.com', 1234567891234567, 2011),
-(2,'Abner@Amail.com', 1234567898765432,2003 ),
-(3,'Michael@Mmail.com', 9876543212345678, 2204 ),
-(4,'Alice2@Amail.com', 9876543210987654, 2401),
-(5,'Elizabeth@Email.com', 0192837465019283,1908),
-(6,'user@demo.com', 0192837465019283,1908);
+(1,'Joy@mago.com', 1234567891234567, 2011),
+(2,'Abner@mago.com', 1234567898765432,2003 ),
+(3,'Michael@mago.com', 9876543212345678, 2204 ),
+(4,'Alice2@mago.com', 9876543210987654, 2401),
+(5,'Elizabeth@mago.com', 0192837465019283,1908),
+(6,'user@mago.com', 0192837465019283,1908);
 
 insert into Movie_Actors (title, main_actor) values
 ('Man of Steel', 'James Weiss'),
